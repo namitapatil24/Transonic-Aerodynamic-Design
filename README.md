@@ -33,22 +33,25 @@ To address these challenges, supercritical airfoils are employed to delay drag d
    - Analyze aerodynamic efficiency and validate against design criteria.
 
 ---
+## 🔍 Methodology
 
-## ✈️ Methodology
+1. **Airfoil Design**:  
+   - Used **VGK** to create root, crank, and tip airfoils optimized for transonic flow conditions.  
+   - Performed iterative refinements with **XFOIL** to adjust thickness, camber, and leading-edge radii for wave drag reduction.  
 
-1. **Airfoil Design**:
-   - Used **VGK** for inverse design of root, crank, and tip airfoils, ensuring optimal aerodynamic performance in transonic conditions.
-   - Conducted iterative refinement of airfoil shapes with **XFOIL** to adjust thickness, camber, and leading-edge radii for shock wave management.
-   
-2. **Wing Integration**:
-   - Integrated airfoil sections into a finite wing geometry using **VFP**, incorporating sweep, twist, and dihedral to optimize spanwise loading and minimize induced drag.
+2. **Mesh Generation**:  
+   - Developed structured grids for airfoil sections using VGK_2D, ensuring adequate resolution near shock regions.  
+   - Validated mesh quality through sensitivity analysis to ensure accurate predictions.  
 
-3. **Performance Analysis**:
-   - Evaluated aerodynamic performance using **VGK_2D** for sectional airfoil analysis and **VFP** for complete wing analysis.
-   - Analyzed lift-to-drag ratios, spanwise load distributions, and pressure coefficients to validate design objectives.
+3. **Finite Wing Analysis**:  
+   - Integrated airfoil sections into a 3D wing planform using **VFP** with optimized sweep, twist, and dihedral angles.  
+   - Simulated wing performance at transonic cruise conditions (`M = 0.8`) to assess aerodynamic coefficients and spanwise load distributions.  
 
-4. **Validation**:
-   - Compared simulation results with theoretical and empirical data to ensure reliability and accuracy of the design process.
+4. **Post-Processing**:  
+   - Analyzed Cp distributions, spanwise load variations, and drag breakdown to evaluate aerodynamic efficiency.  
+   - Compared results with ideal lift distribution and documented findings in the final report.  
+ 
+
 
 ---
 
