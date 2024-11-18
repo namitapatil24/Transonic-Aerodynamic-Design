@@ -161,7 +161,7 @@ To address these challenges, supercritical airfoils are employed to delay drag d
 ## 📫 Contact
 
 For further information, feel free to reach out:  
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/namitarajendrapatil)  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/namita-rajendra-patil/)  
 [![Email](https://img.shields.io/badge/-Gmail-red?style=flat&logo=gmail)](mailto:namitapatil1995@gmail.com)  
 
 ---
